@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 800 !important;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-row: auto;
+  gap: 24px;
+}
+
+.scopes {
+  grid-area: 2/1/3/2;
+}
+
+.timeline {
+  grid-column: 1/-1;
+  grid-area: 1/3/3/4;
+}
+
+.dotted {
+  border-bottom: 1px dotted #09ee27;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important ;
+}

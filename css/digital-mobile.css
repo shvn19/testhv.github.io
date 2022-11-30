@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .scopes {
+    grid-area: auto;
+  }
+
+  .timeline {
+    /* grid-column: 1/-1; */
+    grid-area: auto;
+  }
+
+  .text-center.border-bottom {
+    border-bottom: 0 !important;
+  }
+
+  /* xóa bottom lá cờ */
+  .border-bottom.mb-5 {
+    margin-bottom: 10px !important;
+  }
+
+  /* div in,out */
+  .row.p-3.mb-5 {
+    padding: 15px 0 0 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* timeline rounded-circle số bo tròn */
+  .rounded-circle {
+    width: 52px;
+    height: 52px;
+  }
+
+  .fw-bolder.mt-2 {
+    margin: 0 !important;
+  }
+
+  .row .dotted:last-child {
+    margin-bottom: 20px !important;
+  }
+}
